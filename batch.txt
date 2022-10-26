@@ -1,0 +1,8 @@
+set projectLocation=C:\Users\welcome\eclipse-workspace\Automation\ERP_HybridFrameWork
+cd %projectLocation%
+
+set classpath=%projectLocation%\bin;%projectLocation%\lib\*
+
+java org.testng.TestNG %projectLocation%\testng.xml
+
+pause
